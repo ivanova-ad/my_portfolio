@@ -1,0 +1,37 @@
+.social {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    z-index: 3;
+    top: 230px;
+    left: 50px;
+&__divider {
+    width: 2px;
+    height: 70px;
+    background-color: black;
+    }
+&__link {
+    &:hover {
+        svg path {
+        fill: rgb(218, 42, 42);
+        }
+
+    }
+}
+&__text {
+    width: 150px;
+    height: 25px; 
+    span {
+        width: 150px;
+        display: block;
+        transform: rotate(-90deg) translate(-30%, 0%);
+    }
+    }
+}
+.svg {
+    width: 25px;
+    height: 25px;
+}

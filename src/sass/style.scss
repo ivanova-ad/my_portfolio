@@ -3,6 +3,7 @@
 
 @import 'base/variables';
 
+
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -13,3 +14,10 @@
     width: 1200px;
     margin: 0 auto;
 }
+
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/btn';
+@import 'blocks/social';
+@import 'blocks/about';
+@import 'blocks/portfolio';

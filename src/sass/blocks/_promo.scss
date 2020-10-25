@@ -1,0 +1,32 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background-color: white;
+    &__btns {
+        display: flex;
+        width: 300px;
+        margin-top: 25px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__btn {
+        font-weight: bold;
+        color: #ffffff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        &:hover {
+            transform: scale(1.1);
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+}
+
+header {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+main {
+    padding-top: 205px;
+}

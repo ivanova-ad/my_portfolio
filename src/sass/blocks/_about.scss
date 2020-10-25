@@ -1,0 +1,17 @@
+.about {
+    min-height: 100vh;
+    padding-top: 120px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__descr {
+        width: 700px;
+    }
+  
+    li {
+        list-style-type: none;
+    }
+
+}
